@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: white; */
+}
+.header-div {
+    padding:3%;
+    background-color:#ff006a ;
+    
+}
+.todo-head {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.createtodo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.createtodo input{
+    padding:5px;
+}
+
+.createtodo button{
+    padding:5px;
+    font-weight: bolder;
+    color: #ff006a;
+    background-color: black;
+    border: none;
+}
