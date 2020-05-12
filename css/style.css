@@ -1,12 +1,20 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    /* background-color: black; */
-    /* color: white; */
+    
+}
+body{
+    padding:20px; 
 }
 .header-div {
     padding:3%;
-    background-color:#ff006a ;
+    background-image: url('../images/anete-lusina-2JknzBYDu6k-unsplash.jpg');
+    /* background-image: url('../images/workshop-2Kqhw3qST0o-unsplash.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    
     
 }
 .todo-head {
@@ -15,6 +23,7 @@
     justify-content: center;
     font-weight: bolder;
     font-size: 2em;
+    padding-bottom: 10px;
 }
 .createtodo {
     display: grid;
@@ -31,4 +40,22 @@
     color: #ff006a;
     background-color: black;
     border: none;
+}
+
+div p{
+    text-align: center;
+    padding: 2%;
+    font-size:2em;
+    font-weight: bold;
+
+}
+
+li{
+    padding: 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 0 10%;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-bottom:10px;
 }

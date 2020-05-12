@@ -9,5 +9,12 @@ function createTodo() {
     list.appendChild(todo);
     let inputValue = document.getElementById("input").value;
     console.log(inputValue); //debug
-    document.querySelector('id').innerHTML = inputValue;
+    document.querySelector('li[id]').innerHTML = inputValue;
+}
+
+function deleteTodo(){
+    let checked = document.getElementByTagName('li');
+    let check = document.createElement('input');
+    check.setAttribute('type', checkbox);
+    checked.appendChild(check);
 }
