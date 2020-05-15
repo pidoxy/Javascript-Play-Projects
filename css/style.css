@@ -53,3 +53,8 @@ li{
     list-style-type: none;
     margin-bottom:5px;
 }
+
+li .checkIt {
+    text-decoration: 'line-through' !important;
+}
+  
